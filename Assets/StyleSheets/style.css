@@ -22,7 +22,7 @@ section{
     box-shadow:  5px 3px 10px rgb(104, 145, 145);
 }
 .card-header{
-    background-color: navy;
+    background-color: rgb(31, 31, 68);
     padding-top: 2%;
     padding-bottom: 1%;
     border-radius: 15px;
@@ -35,6 +35,13 @@ p{
     margin-left:25%;
     margin-right:25%;
     padding: .5%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:rgb(111, 107, 161)
 }
 
 #footer{
