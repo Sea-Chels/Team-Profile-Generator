@@ -46,12 +46,7 @@ const addManager = () => {
         message: 'What is your office number?',
         name: 'officeNumber',
     },
-    {
-        type: 'checkbox',
-        message: 'Add an Employee',
-        name: 'addEmployee',
-        choices: ['Intern', 'Engineer', "I'm Done"]
-    }
+
   ]);
 };
 

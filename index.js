@@ -142,7 +142,7 @@ const addManager = () => {
     }else if (teamArray[i].role === 'Intern'){
         extraField = ` <p class="extra-field">${teamArray[i].school}</p>`
     }else if (teamArray[i].role === 'Engineer'){
-        extraField = ` <p class="extra-field"><a href="github.com/${teamArray[i].github}">${teamArray[i].github}</a></p>`
+        extraField = ` <p class="extra-field"><a href="https://www.github.com/  ${teamArray[i].github}" target="_blank" rel="noopener noreferrer">${teamArray[i].github}</a></p>`
     }
     let employeeCard = `\n<div class="card"> 
         <div class="card-header">
@@ -183,7 +183,7 @@ async function addEmployee (){
                         type: 'checkbox',
                         message: "What is the Employee's role that are you adding?",
                         name: 'employeeRole',
-                        choices: ['Intern', 'Engineer', "I'm Done"]
+                        choices: ['Intern', 'Engineer']
                     }
                 ])
                 console.log(result.employeeRole[0])
