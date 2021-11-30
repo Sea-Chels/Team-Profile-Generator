@@ -14,10 +14,9 @@ This is a command-line application that requires interaction with the terminal. 
 ## Installation
 This is a back end application that requires Node.js, as well as inquirer, and fs npm packages. They are all included in the package.json file.
 ## Usage
-To begin using the program, open up the index.js file in your terminal and run it by typing node index.js to begin the inquirer questions. 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+To begin using the program, open up the index.js file in your terminal and run it by typing node index.js to begin the inquirer questions.
+
+[[Link to video walkthrough of application]]({https://www.youtube.com/watch?v=-fm1rKKdJ1s&feature=youtu.be} "Team Profile Generator Walkthrough")
 
 ## Credits
 I would like to credit my tutor, Eric Wallen and my instructor Alex kaufmann for helping with this project.  
